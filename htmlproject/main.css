@@ -1,0 +1,1284 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    font-family: monospace;
+    background-image: url(./pattern.png);
+    background-repeat: repeat;
+    overflow-x: hidden;
+}
+
+main {
+    height: 3900px;
+}
+
+nav {
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1rem;
+    text-align: right;
+    margin-right: 12rem;
+}
+
+
+li {
+    display: inline-block;
+    margin-inline: 2rem;
+}
+
+li a {
+    color: crimson;
+    text-decoration: none;
+}
+
+.reserve  {
+    position: relative;
+    bottom: 60px;
+    left: 85%;   
+}
+
+.reservebutton {
+    background-color: #000;
+    border-radius: 99rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.reservebutton a {
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1,5;
+}
+
+.reservebutton a:hover {
+    color: #e1cc09;
+}
+
+.logo {
+    position: relative;
+    background-image: url(./logo.jpg);
+    background-repeat: no-repeat;
+    bottom: 120px;
+    left: 180px;
+    height: 66px;
+    width: 66px;
+
+}
+
+li a:hover{
+    color: #e1cc09;
+}
+
+li a:active{
+    color: goldenrod;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    height: 150px;
+    z-index: 1;
+}
+
+/* the first container */
+.container {
+    position: relative; 
+    margin-top: -88px;
+    width: 100%;
+    height: 800px; 
+    background-image: url(./divbg2.jpg); 
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid crimson;
+    border-bottom: 5px solid crimson;
+}
+
+
+.h2title2 {
+    color: whitesmoke;
+    margin: 12rem;
+    text-align: center;  
+    font-size: 7rem;
+    font-family: "Dancing Script", cursive; 
+}
+
+.content p{
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+    color: whitesmoke;
+}
+
+.pattern {
+    position: relative; 
+    bottom: 145px;
+    width: auto;
+    height: 140px; 
+    background-image: url(./patterns-white.png); 
+    background-size: cover;
+    background-position: center; 
+}
+/* the second container */
+.container2 {
+    position: relative;
+    margin: 2rem;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Assistant Regular';
+    background-color: rgb(245, 245, 245, 1);
+    opacity: 75%;
+    padding: 2rem;
+}
+
+.title {
+    margin: 2rem;
+    font-size: 3rem;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: orange;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+/* the third container*/
+
+.container3 {
+    position: relative; 
+    margin: 5rem;
+    width: 803px;
+    height: 460px; 
+    background-image: url(./p1img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content3 {
+    position: relative;
+    margin: 2rem;
+    bottom: 503px;
+    left: 600px;
+    font-size: 18px;
+    width: 60ch;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Assistant Regular';
+    background-color: rgb(245, 245, 245);
+    opacity: 85%;
+    padding: 2rem;
+}
+
+.content3 h3 {
+    font-size: 22px !important;
+    font-family: 'merriweather' !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.imgdescription {
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+    color: whitesmoke;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* the forth container*/
+.title2 {
+    position: relative;
+    bottom: 475px;
+    margin: 2rem;
+    font-size: 3rem;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: orange;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+.container4 {
+    position: relative;
+    bottom: 450px;
+    left: 400px;
+    margin: 5rem;
+    background-image: url(./Le-tajine.jpeg);
+    height: 460px;
+    width: 823px;
+}
+
+.content4 {
+    position: relative;
+    margin: 2rem;
+    bottom: 900px;
+    left: 100px;
+    font-size: 18px;
+    width: 60ch;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Assistant Regular';
+    background-color: rgb(245, 245, 245);
+    opacity: 85%;
+    padding: 2rem;
+}
+.content4 h3 {
+    font-size: 22px !important;
+    font-family: 'merriweather' !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.imgdescription2 {
+    position: relative;
+    bottom: 850px;
+    left: 500px;
+    color: whitesmoke;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* the fifth container */
+.container5 {
+    position: relative;
+    margin: 5rem;
+    bottom: 800px;
+    background-image: url(./Le-couscous.jpeg);
+    height: 460px;
+    width: 823px;
+}
+.content5 {
+    position: relative;
+    margin: 2rem;
+    bottom: 1250px;
+    left: 700px;
+    font-size: 18px;
+    width: 60ch;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Assistant Regular';
+    background-color: rgb(245, 245, 245);
+    opacity: 85%;
+    padding: 2rem;
+}
+.content5 h3 {
+    font-size: 22px !important;
+    font-family: 'merriweather' !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.imgdescription3 {
+    position: relative;
+    bottom: 1245px;
+    left: 100px;
+    color: whitesmoke;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* the sixth container */
+.container6 {
+    position: relative;
+    margin: 5rem;
+    bottom: 1120px;
+    left: 400px;
+    background-image: url(./The-a-la-menthe.jpeg);
+    height: 460px;
+    width: 823px;
+}
+.content6 {
+    position: relative;
+    margin: 2rem;
+    bottom: 1630px;
+    left: 100px;
+    font-size: 18px;
+    width: 60ch;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Assistant Regular';
+    background-color: rgb(245, 245, 245);
+    opacity: 85%;
+    padding: 2rem;
+}
+.content6 h3 {
+    font-size: 22px !important;
+    font-family: 'merriweather' !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.imgdescription4 {
+    position: relative;
+    bottom: 1660px;
+    left: 1150px;
+    color: whitesmoke;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+footer {
+    height: 300px;
+    position: absolute;
+    background-color:salmon;
+    width: 100%;
+}
+
+footer .footertitle{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'merriweather';
+}
+
+/* footer a{
+    color: deeppink;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    
+} */
+
+/* button styling */
+.btn-23,
+.btn-23 *,
+.btn-23:after,
+.btn-23:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-23 {
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.btn-23:disabled {
+  cursor: default;
+}
+
+.btn-23 [hidden] {
+  display: none;
+}
+
+.btn-23 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-23 span {
+  display: grid;
+  inset: 0;
+  place-items: center;
+  position: absolute;
+  transition: opacity 0.2s ease;
+}
+
+.btn-23 .marquee {
+  --spacing: 5em;
+  --start: 0em;
+  --end: 5em;
+  -webkit-animation: marquee 1s linear infinite;
+  animation: marquee 1s linear infinite;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  opacity: 0;
+  position: relative;
+  text-shadow: #fff var(--spacing) 0, #fff calc(var(--spacing) * -1) 0,
+    #fff calc(var(--spacing) * -2) 0;
+}
+
+.btn-23:hover .marquee {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  opacity: 1;
+}
+
+.btn-23:hover .text {
+  opacity: 0;
+}
+
+.btn-23 .text a,.text a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+
+  to {
+    transform: translateX(var(--end));
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+
+  to {
+    transform: translateX(var(--end));
+  }
+}
+
+.button1 {
+    position: relative;
+    top: 70px;
+    left: 90px;
+}
+.button2 {
+    position: relative;
+    top: -7px;;
+    left: 420px;
+}
+.button3 {
+    position: relative;
+    top: -84px;;
+    left: 750px;
+}
+.button4 {
+    position: relative;
+    top: -161px;;
+    left: 1080px;
+}
+.copyright {
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+.copyright p {
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.info {
+    position: relative;
+    bottom: 150px;
+}
+
+.info p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.info .mail {
+    color: whitesmoke;
+}
+/* /////////////// */
+
+/* the About us page css part */
+
+.aboutmain {
+    height: 3500px;
+}
+
+.containerA1 {
+    position: relative; 
+    margin-top: -88px;
+    width: auto;
+    height: 660px; 
+    background-image: url(./marrakesh1_0.jpeg); 
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid crimson;
+    border-bottom: 5px solid crimson;
+}
+
+
+.h2title2A1 {
+    color: whitesmoke;
+    margin: 5rem;
+    text-align: center;  
+    font-size: 7rem;
+    font-family: "Dancing Script", cursive; 
+}
+
+.contentA1 p{
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+    color: whitesmoke;
+}
+
+.patternA1 {
+    position: relative; 
+    bottom: 145px;
+    width: auto;
+    height: 140px; 
+    background-image: url(./patterns-white.png); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.titleA1 {
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    bottom: 100px;
+    font-size: 3rem;
+    font-family: "Poetsen One", sans-serif;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+.containerA2 {
+    position: relative;
+    margin: 2rem;
+    bottom:  80px;
+    background-image: url(about/1.jpg);
+    height: 460px;
+    width: 690px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.containerA3 {
+    position: relative;
+    margin: 2rem;
+    bottom: 200px;
+    left: 600px;
+    background-image: url(about/2.jpg);
+    height: 460px;
+    width: 690px;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.containerA4 {
+    position: relative;
+    margin: 2rem;
+    bottom: 320px;
+    background-image: url(about/3.jpg);
+    height: 460px;
+    width: 690px;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.containerA5 {
+    position: relative;
+    margin: 2rem;
+    bottom: 440px;
+    left: 600px;
+    background-image: url(about/4.jpg);
+    height: 460px;
+    width: 690px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.contentA2 {
+    position: relative;
+    margin: 2rem;
+    bottom: 1950px;
+    left: 750px;
+    font-size: 26px;
+    width: 40ch;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Assistant Regular';
+    background-color: rgb(245, 245, 245);
+    opacity: 85%;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.contentA3 {
+    position: relative;
+    margin: 2rem;
+    bottom: 1780px;
+    left: 50px;
+    font-size: 26px;
+    width: 40ch;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Assistant Regular';
+    background-color: rgb(245, 245, 245);
+    opacity: 85%;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.contentA4 {
+    position: relative;
+    margin: 2rem;
+    bottom: 1670px;
+    left: 700px;
+    font-size: 24px;
+    width: 50ch;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Assistant Regular';
+    background-color: rgb(245, 245, 245);
+    opacity: 85%;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.contentA5 {
+    position: relative;
+    margin: 2rem;
+    bottom: 1550px;
+    left: 40px;
+    font-size: 26px;
+    width: 40ch;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+    font-family: 'Assistant Regular';
+    background-color: rgb(245, 245, 245);
+    opacity: 85%;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.containerA6 {
+    position: relative;
+    bottom: 1500px;
+    background-image: url(./autourvoyagebackground.jpg);
+    height: 454px;
+    width: 100%;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    
+}
+
+.titleA2 {
+    position: relative;
+    color: whitesmoke;
+    bottom: 1900px;
+    left: 2rem;
+    font-size: 3rem;
+    font-family: "Poetsen One", sans-serif;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+.contentA6 {
+    position: relative;
+    bottom: 1900px;
+    font-size: 26px;
+    width: 60ch;
+    text-align: justify;
+    line-height: 30px;
+    color: whitesmoke;
+    padding: 2rem;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.containerA7 {
+    position: relative;
+    bottom: 2250px;
+    left: 500px;
+    background-image: url(about/6.jpg);
+    height: 267px;
+    width: 400px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    
+}
+
+.containerA8 {
+    position: relative;
+    bottom: 2515px;
+    left: 930px;
+    background-image: url(about/7.jpg);
+    height: 400px;
+    width: 398px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    
+}
+
+.viewmenu  {
+    position: relative;
+    bottom: 2580px;
+    left: 100px;   
+}
+
+.viewmenubtn {
+    background-color: #000;
+    border-radius: 99rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.viewmenubtn a {
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1,5;
+}
+
+.viewmenubtn a:hover {
+    color: #e1cc09;
+}
+
+.titleA3 {
+    position: relative;
+    color: whitesmoke;
+    bottom: 2500px;
+    left: 550px;
+    font-size: 3rem;
+    font-family: "Poetsen One", sans-serif;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+.containerA9 {
+    position: relative;
+    bottom: 2400px;
+    left: 100px;
+    width: 50%;
+    max-width: 300px;
+}
+
+.containerA10 {
+    position: relative;
+    bottom: 2700px;
+    left: 500px;
+    width: 50%;
+    max-width: 300px;
+}
+
+.containerA11 {
+    position: relative;
+    bottom: 3000px;
+    left: 900px;
+    width: 50%;
+    max-width: 300px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.containerA9:hover .overlay {
+    opacity: 1;
+}
+
+.containerA10:hover .overlay {
+    opacity: 1;
+}
+
+.containerA11:hover .overlay {
+    opacity: 1;
+}
+
+/* <!-- the gallery css page --> */
+
+.maingallerie {
+    height: 1650px;
+}
+
+.slideshow-container {
+    position: relative;
+    bottom: 90px;
+}
+
+.slideimage {
+    width: 100%;
+    height: 800px;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.mySlides {
+    display: none;
+}
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+.textslide {
+    color: black;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 42px;
+    font-weight: 600;
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dots {
+    position: relative;
+    bottom: 300px;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: crimson;
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.titleA4 {
+    position: relative;
+    color: whitesmoke;
+    bottom: 100px;
+    left: 400px;
+    font-size: 3rem;
+    font-family: "Poetsen One", sans-serif;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+div.gallery {
+    position: relative;
+    border: 5px solid black;
+    height: 310px;
+    margin: 10px;
+}
+
+div.gallery:hover {
+    border: 5px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 300px;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+/* the MEnu page CSS part */
+
+#bodymenu {
+    background-image: none;
+    background-color: #c6acac;
+}
+
+.mainmenu {
+    height: 3300px;
+}
+
+.containerM1 {
+    position: relative; 
+    bottom: 80px;
+    width: auto;
+    height: 660px; 
+    background-image: url(./div1bg.jpg); 
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid crimson;
+    border-bottom: 5px solid crimson;
+}
+
+
+.h2title2M1 {
+    color: whitesmoke;
+    margin: 12rem;
+    text-align: center;  
+    font-size: 7rem;
+    font-family: "Dancing Script", cursive; 
+}
+
+.contentM1 p{
+    font-size: 2rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.patternM1 {
+    position: relative; 
+    bottom: 220px;
+    width: auto;
+    height: 140px; 
+    background-image: url(./patterns-white.png); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.containerM2 {
+    position: relative; 
+    width: 100%;
+    height: 474px; 
+    background-image: url(./autourvoyagebackground.jpg); 
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.contentM2 {
+    position: relative;
+    bottom: 420px;
+    left: 50px;
+    background-image: url(menu/1.jpg);
+    height: 380px;
+    width: 570px;
+    border: 5px solid white;
+}
+
+.burgermenu {
+    position: relative;
+    bottom: 780px;
+    left: 800px;
+}
+
+.burgermenu p{
+    color: whitesmoke;
+    font-family: "Shadows Into Light", cursive;
+}
+
+#exception {
+   font-size: 16px;
+   color: red;
+}
+
+.burgermenu h2 {
+    color: crimson;
+}
+
+.containerM3 {
+    position: relative; 
+    bottom: 500px;
+    width: 100%;
+    height: 474px; 
+    background-image: url(./autourvoyagebackground.jpg); 
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.contentM3 {
+    position: relative;
+    bottom: 920px;
+    left: 50px;
+    background-image: url(menu/2.jpg);
+    height: 380px;
+    width: 570px;
+    border: 5px solid white;
+}
+
+.tacosmenu {
+    position: relative;
+    bottom: 1280px;
+    left: 800px;
+}
+
+.tacosmenu p{
+    color: whitesmoke;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.tacosmenu h2 {
+    color: crimson;
+}
+
+.containerM4 {
+    position: relative; 
+    bottom: 1000px;
+    width: 100%;
+    height: 474px; 
+    background-image: url(./autourvoyagebackground.jpg); 
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.contentM4 {
+    position: relative;
+    bottom: 1420px;
+    left: 50px;
+    background-image: url(menu/5.jpg);
+    height: 380px;
+    width: 570px;
+    border: 5px solid white;
+}
+
+.traditionmenu {
+    position: relative;
+    bottom: 1800px;
+    left: 800px;
+}
+
+.traditionmenu p{
+    color: whitesmoke;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.traditionmenu h2 {
+    color: crimson;
+}
+
+.containerM5 {
+    position: relative; 
+    bottom: 1700px;
+    width: 100%;
+    height: 474px; 
+    background-image: url(./autourvoyagebackground.jpg); 
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.contentM5 {
+    position: relative;
+    bottom: 2120px;
+    left: 50px;
+    background-image: url(menu/9.jpg);
+    height: 380px;
+    width: 570px;
+    border: 5px solid white;
+}
+
+.sodamenu {
+    position: relative;
+    bottom: 2500px;
+    left: 800px;
+}
+
+.sodamenu p{
+    color: whitesmoke;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.sodamenu h2 {
+    color: crimson;
+}
+
+/* Reservation css part */
+
+#bodyreserve {
+    background-image: none;
+    background-color: wheat;
+}
+
+.mainreserve {
+    height: 1500px;
+}
+
+.containerR1 {
+    position: relative; 
+    bottom: 80px;
+    width: auto;
+    height: 660px; 
+    background-image: url(./milad-alizadeh-88bkrZBQ1iY-unsplash.jpg); 
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid crimson;
+    border-bottom: 5px solid crimson;
+}
+
+
+.h2title2R1 {
+    color: whitesmoke;
+    margin: 8rem;
+    text-align: center;  
+    font-size: 7rem;
+    font-family: "Dancing Script", cursive; 
+}
+
+.contentR1 p{
+    font-size: 2rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.patternR1 {
+    position: relative; 
+    bottom: 220px;
+    width: auto;
+    height: 140px; 
+    background-image: url(./patterns-white.png); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.h2titleR2 {
+    position: relative;
+    bottom: 170px;
+    left: 160px;
+    font-family: "Dancing Script", cursive; 
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.form {
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+}
+
+.form fieldset {
+    width: 70%;
+    padding: 3rem;
+}
+
+input[type=text]{
+    font-size: 24px;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input[type=number]{
+    font-size: 24px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input[type=datetime-local] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 3px solid #555;
+}
+
+input[type=number]:focus {
+    outline: none;
+    border: 3px solid #555;
+}
+
+#btn {
+    position: relative;
+    left: 300px;
+    background-color: #000;
+    width: 200px;
+    height: 50px;
+    font-size: 26px;
+    color: whitesmoke;
+    border: 2px solid #555;
+    border-radius: 20px;
+}
+
+#btn:hover {
+    color: #e1cc09;
+    border: 2px solid #e1cc09
+}
